@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128E287B26626FF0006519BB /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128E287A26626FF0006519BB /* UIImageViewExtension.swift */; };
+		12A37A19266BE9500036360A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A37A18266BE94F0036360A /* TableViewCell.swift */; };
+		12A37A1D266BF4060036360A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A37A1C266BF4060036360A /* WebViewController.swift */; };
 		12C7E9F8265E2F69002A7A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7E9F7265E2F69002A7A11 /* AppDelegate.swift */; };
 		12C7E9FA265E2F69002A7A11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7E9F9265E2F69002A7A11 /* SceneDelegate.swift */; };
 		12C7E9FC265E2F69002A7A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7E9FB265E2F69002A7A11 /* ViewController.swift */; };
 		12C7E9FF265E2F69002A7A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C7E9FD265E2F69002A7A11 /* Main.storyboard */; };
 		12C7EA01265E2F6C002A7A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C7EA00265E2F6C002A7A11 /* Assets.xcassets */; };
 		12C7EA04265E2F6C002A7A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C7EA02265E2F6C002A7A11 /* LaunchScreen.storyboard */; };
+		12C7EA0C265E300C002A7A11 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C7EA0B265E300C002A7A11 /* User.storyboard */; };
+		12C7EA0E265E3019002A7A11 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA0D265E3019002A7A11 /* UserLoginViewController.swift */; };
+		12C7EA10265E3030002A7A11 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA0F265E3030002A7A11 /* UserViewController.swift */; };
+		12C7EA14265E303F002A7A11 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA11265E303F002A7A11 /* News.swift */; };
+		12C7EA15265E303F002A7A11 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA12265E303F002A7A11 /* SQLiteManager.swift */; };
+		12C7EA16265E303F002A7A11 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA13265E303F002A7A11 /* TableViewController.swift */; };
+		12C7EA1C265E30B1002A7A11 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C7EA1B265E30B1002A7A11 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		128E287A26626FF0006519BB /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		12A37A18266BE94F0036360A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		12A37A1C266BF4060036360A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		12C7E9F4265E2F69002A7A11 /* FinalHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C7E9F7265E2F69002A7A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12C7E9F9265E2F69002A7A11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,14 @@
 		12C7EA00265E2F6C002A7A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C7EA03265E2F6C002A7A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C7EA05265E2F6C002A7A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C7EA0B265E300C002A7A11 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = User.storyboard; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/User.storyboard; sourceTree = "<group>"; };
+		12C7EA0D265E3019002A7A11 /* UserLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserLoginViewController.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/UserLoginViewController.swift; sourceTree = "<group>"; };
+		12C7EA0F265E3030002A7A11 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/UserViewController.swift; sourceTree = "<group>"; };
+		12C7EA11265E303F002A7A11 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = News.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/News.swift; sourceTree = "<group>"; };
+		12C7EA12265E303F002A7A11 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteManager.swift; path = ../../P1102/P1102/SQLiteManager.swift; sourceTree = "<group>"; };
+		12C7EA13265E303F002A7A11 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/TableViewController.swift; sourceTree = "<group>"; };
+		12C7EA17265E308E002A7A11 /* FinalHomework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalHomework-Bridging-Header.h"; sourceTree = "<group>"; };
+		12C7EA1B265E30B1002A7A11 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C7EA1C265E30B1002A7A11 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +64,7 @@
 			children = (
 				12C7E9F6265E2F69002A7A11 /* FinalHomework */,
 				12C7E9F5265E2F69002A7A11 /* Products */,
+				12C7EA1A265E30B1002A7A11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,31 @@
 			children = (
 				12C7E9F7265E2F69002A7A11 /* AppDelegate.swift */,
 				12C7E9F9265E2F69002A7A11 /* SceneDelegate.swift */,
-				12C7E9FB265E2F69002A7A11 /* ViewController.swift */,
+				12C7EA0B265E300C002A7A11 /* User.storyboard */,
+				12C7EA0F265E3030002A7A11 /* UserViewController.swift */,
+				12C7EA0D265E3019002A7A11 /* UserLoginViewController.swift */,
 				12C7E9FD265E2F69002A7A11 /* Main.storyboard */,
+				12A37A1C266BF4060036360A /* WebViewController.swift */,
+				12A37A18266BE94F0036360A /* TableViewCell.swift */,
+				12C7E9FB265E2F69002A7A11 /* ViewController.swift */,
+				128E287A26626FF0006519BB /* UIImageViewExtension.swift */,
 				12C7EA00265E2F6C002A7A11 /* Assets.xcassets */,
 				12C7EA02265E2F6C002A7A11 /* LaunchScreen.storyboard */,
 				12C7EA05265E2F6C002A7A11 /* Info.plist */,
+				12C7EA11265E303F002A7A11 /* News.swift */,
+				12C7EA12265E303F002A7A11 /* SQLiteManager.swift */,
+				12C7EA13265E303F002A7A11 /* TableViewController.swift */,
+				12C7EA17265E308E002A7A11 /* FinalHomework-Bridging-Header.h */,
 			);
 			path = FinalHomework;
+			sourceTree = "<group>";
+		};
+		12C7EA1A265E30B1002A7A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C7EA1B265E30B1002A7A11 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +139,7 @@
 				TargetAttributes = {
 					12C7E9F3265E2F69002A7A11 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -125,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12C7EA04265E2F6C002A7A11 /* LaunchScreen.storyboard in Resources */,
+				12C7EA0C265E300C002A7A11 /* User.storyboard in Resources */,
 				12C7EA01265E2F6C002A7A11 /* Assets.xcassets in Resources */,
 				12C7E9FF265E2F69002A7A11 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C7EA14265E303F002A7A11 /* News.swift in Sources */,
+				12A37A1D266BF4060036360A /* WebViewController.swift in Sources */,
 				12C7E9FC265E2F69002A7A11 /* ViewController.swift in Sources */,
+				12C7EA10265E3030002A7A11 /* UserViewController.swift in Sources */,
+				12C7EA16265E303F002A7A11 /* TableViewController.swift in Sources */,
 				12C7E9F8265E2F69002A7A11 /* AppDelegate.swift in Sources */,
+				12A37A19266BE9500036360A /* TableViewCell.swift in Sources */,
+				128E287B26626FF0006519BB /* UIImageViewExtension.swift in Sources */,
+				12C7EA15265E303F002A7A11 /* SQLiteManager.swift in Sources */,
 				12C7E9FA265E2F69002A7A11 /* SceneDelegate.swift in Sources */,
+				12C7EA0E265E3019002A7A11 /* UserLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMHPQ3RDGW;
 				INFOPLIST_FILE = FinalHomework/Info.plist;
@@ -295,6 +347,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kamkahou.FinalHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinalHomework/FinalHomework-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMHPQ3RDGW;
 				INFOPLIST_FILE = FinalHomework/Info.plist;
@@ -314,6 +369,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kamkahou.FinalHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinalHomework/FinalHomework-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
