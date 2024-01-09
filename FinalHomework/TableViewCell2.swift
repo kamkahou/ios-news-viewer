@@ -7,13 +7,14 @@
 
 import UIKit
 
-class  NewsTableViewCell: UITableViewCell
+class  FavNewsTableViewCell: UITableViewCell
 {
-    @IBOutlet weak var titleLable: UILabel!
+
+    @IBOutlet weak var favTitleLable: UILabel!
     
-    @IBOutlet weak var newsImage: UIImageView!
+    @IBOutlet weak var favNewsImage: UIImageView!
     
-    @IBOutlet weak var passtimeLable: UILabel!
+    @IBOutlet weak var favPasstimeLable: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

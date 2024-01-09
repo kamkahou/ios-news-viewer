@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		128E287B26626FF0006519BB /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128E287A26626FF0006519BB /* UIImageViewExtension.swift */; };
+		128EC1FC266D0BD500610213 /* FavNewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC1FB266D0BD500610213 /* FavNewsTableViewController.swift */; };
+		128EC1FE266D0C6E00610213 /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC1FD266D0C6E00610213 /* SearchResultTableViewController.swift */; };
+		128F1EFD2673B1CB006D4CCE /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128F1EFC2673B1CB006D4CCE /* UIImageViewExtension.swift */; };
+		128F1EFF2673D64A006D4CCE /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128F1EFE2673D64A006D4CCE /* TableViewCell2.swift */; };
+		129658A626775E6100F47E8B /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129658A526775E6100F47E8B /* SQLiteManager.swift */; };
 		12A37A19266BE9500036360A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A37A18266BE94F0036360A /* TableViewCell.swift */; };
 		12A37A1D266BF4060036360A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A37A1C266BF4060036360A /* WebViewController.swift */; };
 		12C7E9F8265E2F69002A7A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7E9F7265E2F69002A7A11 /* AppDelegate.swift */; };
@@ -20,13 +24,16 @@
 		12C7EA0E265E3019002A7A11 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA0D265E3019002A7A11 /* UserLoginViewController.swift */; };
 		12C7EA10265E3030002A7A11 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA0F265E3030002A7A11 /* UserViewController.swift */; };
 		12C7EA14265E303F002A7A11 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA11265E303F002A7A11 /* News.swift */; };
-		12C7EA15265E303F002A7A11 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA12265E303F002A7A11 /* SQLiteManager.swift */; };
 		12C7EA16265E303F002A7A11 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7EA13265E303F002A7A11 /* TableViewController.swift */; };
 		12C7EA1C265E30B1002A7A11 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C7EA1B265E30B1002A7A11 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		128E287A26626FF0006519BB /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		128EC1FB266D0BD500610213 /* FavNewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavNewsTableViewController.swift; sourceTree = "<group>"; };
+		128EC1FD266D0C6E00610213 /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
+		128F1EFC2673B1CB006D4CCE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		128F1EFE2673D64A006D4CCE /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		129658A526775E6100F47E8B /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
 		12A37A18266BE94F0036360A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		12A37A1C266BF4060036360A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		12C7E9F4265E2F69002A7A11 /* FinalHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +48,6 @@
 		12C7EA0D265E3019002A7A11 /* UserLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserLoginViewController.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/UserLoginViewController.swift; sourceTree = "<group>"; };
 		12C7EA0F265E3030002A7A11 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/UserViewController.swift; sourceTree = "<group>"; };
 		12C7EA11265E303F002A7A11 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = News.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/News.swift; sourceTree = "<group>"; };
-		12C7EA12265E303F002A7A11 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteManager.swift; path = ../../P1102/P1102/SQLiteManager.swift; sourceTree = "<group>"; };
 		12C7EA13265E303F002A7A11 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../../../../../../Users/kamkahou/Desktop/0501/0501/TableViewController.swift; sourceTree = "<group>"; };
 		12C7EA17265E308E002A7A11 /* FinalHomework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalHomework-Bridging-Header.h"; sourceTree = "<group>"; };
 		12C7EA1B265E30B1002A7A11 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -79,6 +85,7 @@
 		12C7E9F6265E2F69002A7A11 /* FinalHomework */ = {
 			isa = PBXGroup;
 			children = (
+				12C7EA00265E2F6C002A7A11 /* Assets.xcassets */,
 				12C7E9F7265E2F69002A7A11 /* AppDelegate.swift */,
 				12C7E9F9265E2F69002A7A11 /* SceneDelegate.swift */,
 				12C7EA0B265E300C002A7A11 /* User.storyboard */,
@@ -86,16 +93,18 @@
 				12C7EA0D265E3019002A7A11 /* UserLoginViewController.swift */,
 				12C7E9FD265E2F69002A7A11 /* Main.storyboard */,
 				12A37A1C266BF4060036360A /* WebViewController.swift */,
-				12A37A18266BE94F0036360A /* TableViewCell.swift */,
 				12C7E9FB265E2F69002A7A11 /* ViewController.swift */,
-				128E287A26626FF0006519BB /* UIImageViewExtension.swift */,
-				12C7EA00265E2F6C002A7A11 /* Assets.xcassets */,
 				12C7EA02265E2F6C002A7A11 /* LaunchScreen.storyboard */,
 				12C7EA05265E2F6C002A7A11 /* Info.plist */,
+				129658A526775E6100F47E8B /* SQLiteManager.swift */,
+				128F1EFC2673B1CB006D4CCE /* UIImageViewExtension.swift */,
 				12C7EA11265E303F002A7A11 /* News.swift */,
-				12C7EA12265E303F002A7A11 /* SQLiteManager.swift */,
-				12C7EA13265E303F002A7A11 /* TableViewController.swift */,
 				12C7EA17265E308E002A7A11 /* FinalHomework-Bridging-Header.h */,
+				12C7EA13265E303F002A7A11 /* TableViewController.swift */,
+				12A37A18266BE94F0036360A /* TableViewCell.swift */,
+				128F1EFE2673D64A006D4CCE /* TableViewCell2.swift */,
+				128EC1FB266D0BD500610213 /* FavNewsTableViewController.swift */,
+				128EC1FD266D0C6E00610213 /* SearchResultTableViewController.swift */,
 			);
 			path = FinalHomework;
 			sourceTree = "<group>";
@@ -186,9 +195,12 @@
 				12C7EA10265E3030002A7A11 /* UserViewController.swift in Sources */,
 				12C7EA16265E303F002A7A11 /* TableViewController.swift in Sources */,
 				12C7E9F8265E2F69002A7A11 /* AppDelegate.swift in Sources */,
+				128EC1FE266D0C6E00610213 /* SearchResultTableViewController.swift in Sources */,
 				12A37A19266BE9500036360A /* TableViewCell.swift in Sources */,
-				128E287B26626FF0006519BB /* UIImageViewExtension.swift in Sources */,
-				12C7EA15265E303F002A7A11 /* SQLiteManager.swift in Sources */,
+				128F1EFD2673B1CB006D4CCE /* UIImageViewExtension.swift in Sources */,
+				128F1EFF2673D64A006D4CCE /* TableViewCell2.swift in Sources */,
+				129658A626775E6100F47E8B /* SQLiteManager.swift in Sources */,
+				128EC1FC266D0BD500610213 /* FavNewsTableViewController.swift in Sources */,
 				12C7E9FA265E2F69002A7A11 /* SceneDelegate.swift in Sources */,
 				12C7EA0E265E3019002A7A11 /* UserLoginViewController.swift in Sources */,
 			);
